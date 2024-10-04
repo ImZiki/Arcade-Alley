@@ -20,7 +20,6 @@
             <a href="#events">Events</a>
             <a href="/communities.html">Communities</a>
             <a href="#about-us">About us</a>
-            <a href="/register.html">Registrate</a>
         </div>
         <form action="/buscar" method="get">
             <input type="text" name="query" placeholder="Buscar...">
@@ -29,8 +28,19 @@
     </div>
     <div class="container-wrapper">
         <div class="container">
-            <p>WORK IN PROGRESS</p>
-            <img src="sources/media/logoArcAll.jpeg" alt="Foto 1">
+            <form action="submit" method="post">
+                <label for="uname">Nombre de usuario</label>
+                <input type="text" name="uname" value="Nombre de usuario" id="username">
+                <label for="uemail">Correo electronico</label>
+                <input type="email" name="uemail" id="useremail">
+                <label for="pw">Contraseña</label>
+                <input type="password" name="pw" value="Contraseña" id="userpw">
+                <div class="button-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar cambios</button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

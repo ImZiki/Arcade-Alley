@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100px;
+}
+.navbar {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.navbar input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.navbar button {
+    padding: 6px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.navbar button:hover {
+    background-color: #777;
+}
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-right: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button-container {
+    display: flex;
+    justify-content: space-between;
+}
