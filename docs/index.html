@@ -14,10 +14,18 @@
     <title>Ziki's site</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="projects.html">Proyectos</a>
-    </nav>
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="/docs/index.html">Inicio</a>
+            <a href="#about">Acerca de</a>
+            <a href="/docs/projects.html">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </div>
+        <form action="/buscar" method="get">
+            <input type="text" name="query" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
     <div class="container-wrapper">
         <div class="container left">
             <p>WORK IN PROGRESS</p>

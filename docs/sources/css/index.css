@@ -7,17 +7,34 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 100px;
 }
-nav {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    font-size: 20px
+    padding: 10px;
 }
-nav a {
+.navbar a {
     color: white;
-    margin: 0 15px;
     text-decoration: none;
+    padding: 14px 20px;
+}
+.navbar input[type="text"] {
+    padding: 6px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.navbar button {
+    padding: 6px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.navbar button:hover {
+    background-color: #777;
 }
 .container-wrapper {
     display: flex;
